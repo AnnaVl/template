@@ -1,0 +1,165 @@
+*{
+  margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration:none;
+}
+
+body{
+  font: 12px Arial , Helvetica , sans-serif;
+}
+
+.wrapper{
+  max-width: 1600px;
+  width: 100%;
+  font:12px Arial , Helvetica , sans-serif;
+  margin: 0 auto;
+}
+
+
+                   /*HEADER BEGIN*/
+
+header{
+  height: 97px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-right: 115px;
+  padding-left: 115px;
+}
+
+header h1 {
+  float:left;
+}
+
+nav{
+  float:right;
+  clear:right;
+}
+
+nav li{
+  float:right;
+  padding-top:44px;
+  padding-bottom:44px;
+}
+ nav #inp{
+  height: 30px;
+  display: none;
+  margin-top: -30px;
+  float: right;
+  clear: right;
+}
+
+nav li a {
+  color:#808080;
+  font-weight:bold;
+  padding-right: 45px;
+}
+
+nav li a:hover{
+  color:#fff;
+  border-radius:4px;
+}
+
+nav  li.current a {
+  color:#fff;
+  border:1px solid #01224b;
+  border-radius:4px;
+}
+
+.m-container{
+  background: #E5E5E6;
+  height: 350px;
+  width: 100%;
+}
+.txt{
+  float: left;
+}
+
+.about{
+  margin-top: 115px;
+  margin-left: 115px;
+  background: black;
+  height: 55px;
+  width: 590px;
+  color: white;
+  font:48px Time New Roman;
+}
+
+.second-txt{
+  float: left;
+}
+
+.welc{
+  margin-top: 50px;
+  margin-left: 115px;
+  width: 400px;
+  font:12px Arial, Helvetica;
+  letter-spacing: 10px;
+
+}
+
+.img-div{
+}
+
+.img{
+  float: left;
+  height: 350px;
+  width: 500px;
+  margin-left: 286px;
+  position: relative;
+}
+
+.img_n{
+  display: inline-block;
+}
+.img-next{
+  width: 530px;
+  height: 600px;
+  margin-left:  115px;
+  margin-top: 62px;
+}
+
+.s-container{
+  width: 100%;
+}
+.main_txt{
+  width: 558px;
+  height: 100px;
+  margin-left: 54px;
+  position: absolute;
+  display: inline-block;
+  margin-top: 62px;
+  margin-right: 262px;
+}
+
+.str{
+  font:14px;
+  letter-spacing: 10px;
+}
+.txtLor{
+  margin-top: 50px;
+  font-size: 14px;
+  line-height:24px;
+  margin-bottom: 50px;
+
+}
+
+.str1{
+
+  font:12px Arial, Helvetica;
+  font-weight: bold;
+  margin-top: 50px;
+
+}
+
+.progr{
+  margin-top: 19px;
+  background-color: #f3f3f3;
+  width: 558px;
+  height: 9px;
+}
